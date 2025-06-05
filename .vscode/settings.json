@@ -2,7 +2,6 @@
     "yaml.schemas": {
         "kubernetes": "*.yaml",
         "https://json.schemastore.org/helm-chart": "Chart.yaml",
-        "./values.schema.json": "values.yaml",
-
+        "./values.schema.json": "values.yaml"
     }
 }
