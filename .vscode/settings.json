@@ -1,10 +1,11 @@
 {
     "yaml.schemas": {
         "kubernetes": "*.yaml",
-        "https://json.schemastore.org/helm-chart": "Chart.yaml",
+        "file:///C:/Users/nadava/helmTests/helmTesting/Chart.json": "**/Chart.yaml",
         "./values.schema.json": "values.yaml"
     },
     "vs-kubernetes": {
+
         
         "vs-kubernetes.namespace": "",
         "vs-kubernetes.kubectl-path": "",
