@@ -1,0 +1,13 @@
+affinity: {}
+image:
+  repository: example/backend
+  tag: latest
+nodeSelector: {}
+replicaCount: 1
+resources: {}
+route:
+  enabled: true
+service:
+  port: 5000
+  type: ClusterIP
+tolerations: []

@@ -1,0 +1,10 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: database
+spec:
+  to:
+    kind: Service
+    name: database
+  port:
+    targetPort: 27017

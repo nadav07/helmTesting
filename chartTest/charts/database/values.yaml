@@ -1,0 +1,13 @@
+affinity: {}
+image:
+  repository: mongo
+  tag: latest
+nodeSelector: {}
+replicaCount: 1
+resources: {}
+route:
+  enabled: true
+service:
+  port: 27017
+  type: ClusterIP
+tolerations: []

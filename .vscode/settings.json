@@ -2,7 +2,9 @@
     "yaml.schemas": {
         "kubernetes": "*.yaml",
         "file:///C:/Users/nadava/helmTests/helmTesting/Chart.json": "**/Chart.yaml",
-        "./values.schema.json": "values.yaml"
+        "./values.schema.json": "values.yaml",
+        "file:///c%3A/Users/nadava/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i",
+        "file:///c%3A/Users/nadava/helmTests/helmTesting/Chart.json": "file:///c%3A/Users/nadava/helmTests/helmTesting/chartTest/charts/backend/Chart.yaml"
     },
     "vs-kubernetes": {
 
