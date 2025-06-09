@@ -6,3 +6,7 @@
 {{ .Values.global.chartNameBackend }}
 {{- end -}}
 
+{{- define "chartTestDatabase.name" -}}
+{{ .Values.global.chartNameDatabase }}
+{{- end -}}
+
