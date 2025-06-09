@@ -1,2 +1,4 @@
 global:
-  chartName: "chart-test"
+  chartNameFrontend: "chart-test"
+  chartNameBackend: "chart-testBackend"
+  chartNameDatabase: "chart-testDatabase"

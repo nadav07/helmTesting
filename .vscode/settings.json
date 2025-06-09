@@ -1,12 +1,19 @@
 {
     "yaml.schemas": {
-        "kubernetes": "*.yaml",
+        "kubernetes": "C:/Users/nadava/k8s/**/*.yaml",
         "file:///C:/Users/nadava/helmTests/helmTesting/Chart.json": "**/Chart.yaml",
         "./values.schema.json": "values.yaml",
-        "file:///c%3A/Users/nadava/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i",
-        "file:///c%3A/Users/nadava/helmTests/helmTesting/Chart.json": "file:///c%3A/Users/nadava/helmTests/helmTesting/chartTest/charts/backend/Chart.yaml"
+        "file:///c%3A/Users/nadava/helmTests/helmTesting/values.schema.json": [
+            "file:///c%3A/Users/nadava/helmTests/helmTesting/chartTest/charts/database/values.yaml",
+            "file:///c%3A/Users/nadava/helmTests/helmTesting/chartTest/charts/frontend/values.yaml",
+            "file:///c%3A/Users/nadava/helmTests/helmTesting/chartTest/charts/backend/values.yaml"
+        ]
     },
     "vs-kubernetes": {
+    
+        
+
+
 
         
         "vs-kubernetes.namespace": "",
@@ -25,5 +32,17 @@
         "vs-kubernetes.local-tunnel-debug-provider": "",
         "checkForMinikubeUpgrade": true,
         "imageBuildTool": "Docker"
-    }
+    },
+    "yaml.schemaStore.enable": false,
+    "yaml.schemaStore.url": "",
+    "yaml.format.enable": false,
+    "kubernetes-yaml-formatter-x.config.useGlobalConfig": false,
+    "kubernetes-yaml-formatter-x.config.useGlobalConfigOverWorkspace": false,
+    "kubernetes-yaml-formatter-x.config.useWorkspaceConfig": false,
+    "editor.codeActionsOnSave": {
+
+    },
+    "editor.dropIntoEditor.preferences": [
+
+    ]
 }
