@@ -9,4 +9,3 @@
 {{- define "chartTestDatabase.name" -}}
 {{ .Values.global.chartNameDatabase }}
 {{- end -}}
-
